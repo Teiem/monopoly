@@ -1,0 +1,85 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b2f3b;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+main {
+    background-color: white;
+    width: 100vmin;
+    height: 100vmin;
+
+    display: grid;
+    grid-template-columns: 1.5fr repeat(9, 1fr) 1.5fr;
+    grid-template-rows: 1.5fr repeat(9, 1fr) 1.5fr;
+    grid-template-areas:
+        " f20 f21 f22 f23 f24 f25 f26 f27 f28 f29 f30"
+        " f19  m   m   m   m   m   m   m   m   m  f31"
+        " f18  m   m   m   m   m   m   m   m   m  f32"
+        " f17  m   m   m   m   m   m   m   m   m  f33"
+        " f16  m   m   m   m   m   m   m   m   m  f34"
+        " f15  m   m   m   m   m   m   m   m   m  f35"
+        " f14  m   m   m   m   m   m   m   m   m  f36"
+        " f13  m   m   m   m   m   m   m   m   m  f37"
+        " f12  m   m   m   m   m   m   m   m   m  f38"
+        " f11  m   m   m   m   m   m   m   m   m  f39"
+        " f10  f9  f8  f7  f6  f5  f4  f3  f2  f1  f0"
+}
+
+.middle {
+    background: #000;
+    grid-area: m;
+}
+
+#text {
+    color: #fff;
+}
+
+.field {
+    border: 1px solid black;
+}
+
+[data-area = "0"] {grid-area: f0;}
+[data-area = "1"] {grid-area: f1;}
+[data-area = "2"] {grid-area: f2;}
+[data-area = "3"] {grid-area: f3;}
+[data-area = "4"] {grid-area: f4;}
+[data-area = "5"] {grid-area: f5;}
+[data-area = "6"] {grid-area: f6;}
+[data-area = "7"] {grid-area: f7;}
+[data-area = "8"] {grid-area: f8;}
+[data-area = "9"] {grid-area: f9;}
+[data-area = "10"] {grid-area: f10;}
+[data-area = "11"] {grid-area: f11;}
+[data-area = "12"] {grid-area: f12;}
+[data-area = "13"] {grid-area: f13;}
+[data-area = "14"] {grid-area: f14;}
+[data-area = "15"] {grid-area: f15;}
+[data-area = "16"] {grid-area: f16;}
+[data-area = "17"] {grid-area: f17;}
+[data-area = "18"] {grid-area: f18;}
+[data-area = "19"] {grid-area: f19;}
+[data-area = "20"] {grid-area: f20;}
+[data-area = "21"] {grid-area: f21;}
+[data-area = "22"] {grid-area: f22;}
+[data-area = "23"] {grid-area: f23;}
+[data-area = "24"] {grid-area: f24;}
+[data-area = "25"] {grid-area: f25;}
+[data-area = "26"] {grid-area: f26;}
+[data-area = "27"] {grid-area: f27;}
+[data-area = "28"] {grid-area: f28;}
+[data-area = "29"] {grid-area: f29;}
+[data-area = "30"] {grid-area: f30;}
+[data-area = "31"] {grid-area: f31;}
+[data-area = "32"] {grid-area: f32;}
+[data-area = "33"] {grid-area: f33;}
+[data-area = "34"] {grid-area: f34;}
+[data-area = "35"] {grid-area: f35;}
+[data-area = "36"] {grid-area: f36;}
+[data-area = "37"] {grid-area: f37;}
+[data-area = "38"] {grid-area: f38;}
+[data-area = "39"] {grid-area: f39;}
